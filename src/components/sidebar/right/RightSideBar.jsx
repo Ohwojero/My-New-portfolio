@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './rightsidebar.css'
+import  './rightsidebar.css'
 
 const Right = () => {
   const [name, setName] = useState("");
