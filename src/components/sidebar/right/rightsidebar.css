@@ -1,0 +1,71 @@
+
+.feedback-text{
+    color: #ff7f50;
+    font-weight: 600;
+    font-size: 15px;
+}
+.feedback-text-two{
+    color: grey;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.feedback-form label {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.feedback-form button {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #e6733c;
+}
+
+.comments-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comment-item {
+  background-color: #f9f9f9;
+  border-left: 4px solid #ff7f50;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.comment-name {
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  color: #333;
+}
+
+.comment-feedback {
+  margin: 0;
+  color: #555;
+}

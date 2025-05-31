@@ -1,0 +1,85 @@
+.portfolio-container {
+    padding: 40px 20px;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  .port-wrapper {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .port-wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .port-wrapper{
+    
+  }
+  
+  .port-wrapper p {
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 1rem;
+  
+  }
+  
+  .github-link {
+    color: #ff7f50;
+    text-decoration: underline;
+  }
+  
+  .contact{
+    display:inline-block;
+    margin-top: 15px;
+    background:#ff7f50;
+    /* padding: 6px 28px; */
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+   
+  
+  .projects-heading {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    object-fit:cover;
+    cursor: pointer;
+    height: 100%;
+
+  }
+  
+  .project-link {
+    margin-top: 10px;
+    font-weight: 600;
+    color:grey;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  

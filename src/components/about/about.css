@@ -1,0 +1,144 @@
+/* Main content wrapper */
+.about-content {
+    padding: 25px;
+    min-height: 100vh;
+  }
+  
+  /* Intro / Header Section */
+  .intro-section {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  
+  .intro-section h1 {
+    font-size: 34px;
+    font-weight: 900;
+    font-family: 'Outfit-Bold', sans-serif;
+    color: #ff7f50;
+   
+  }
+  
+  .intro-section h2 {
+    font-size: 30px;
+    /* Replace with your colors.textColor */
+    font-family: 'Outfit-Bold', sans-serif;
+  }
+  
+  .roles {
+    margin-top: -1rem;
+    font-size: 16px; 
+    font-family: 'Outfit-SemiBold', sans-serif;
+  }
+  .number{
+    color: #ff7f50;
+    font-size: 35px;
+  }
+  .text-title{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .intro-section a {
+    color: #ff7f50; 
+    font-family: 'Outfit-SemiBold', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .intro-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Resume / Portfolio Section */
+  .work-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .work-experience h3 {
+    font-size: 30px;
+    color: #333;
+    font-family: 'Outfit-Bold', sans-serif;
+    margin: 0;
+  }
+  
+  .resume-container p {
+    font-size: 16px;
+    font-family: 'Outfit-SemiBold', sans-serif;
+  }
+  
+  /* "What I Do" Section */
+  .what-i-do-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .what-i-do-header {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+   margin-left: -44rem;
+   margin-top: 1rem;
+  }
+  
+  .vertical-bar {
+    width: 3px;
+    height: 100px;
+    background-color: #ff7f50;
+  }
+  
+  .what-i-do-header h4 {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Outfit-Regular', sans-serif;
+    margin: 0;
+  }
+  
+  .work-details {
+    line-height: 1.5;
+    /* color: #444; */
+    font-size: 16px;
+  }
+  
+  /* Stack Items */
+  .stack-section {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .stack-wrapper {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #9c9c9c; /* Replace with colors.textColor */
+  }
+  
+  .stack-wrapper h4 {
+    font-size: 17px;
+    /* color: #333; */
+    font-family: 'Outfit-SemiBold', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .stack-wrapper p {
+    color: #555;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .stack-section{
+      grid-template-columns: 1fr;
+    }
+  }
+  
