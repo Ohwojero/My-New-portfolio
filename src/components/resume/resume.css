@@ -84,6 +84,7 @@
   list-style: none;
   /* color: rgb(104, 104, 104); */
   line-height: 1.5;
+  margin-left: -2.5rem;
 }
 .work{
   display: flex;
@@ -100,4 +101,36 @@
 }
 .live-link{
   color: #ff7f50;
+}
+@media (max-width: 768px){
+  .resume-header h1{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .download-button{
+    width: 100%;
+    padding: 15px;
+  }
+  .container{
+    padding: 0;
+    margin-top: -3rem;
+  }
+  .personal-info{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .contact-item{
+    align-items: start;
+    margin-left: -7rem;
+    line-height: 1.5;
+  }
+  .skills{
+    margin: 0;
+  }
+  .skills ul li{
+    margin-left: -2.5rem;
+  }
+  .experience{
+    margin-bottom: 1rem;
+  }
 }

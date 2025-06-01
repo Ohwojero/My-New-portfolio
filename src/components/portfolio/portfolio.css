@@ -82,4 +82,12 @@
     font-size: 1.2rem;
     text-decoration: none;
   }
+  @media (max-width: 768px){
+    .portfolio-container{
+      padding: 10px 0;
+    }
+    .project-card{
+      width: 100%;
+    }
+  }
   

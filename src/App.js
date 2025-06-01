@@ -42,6 +42,9 @@ function App() {
       <LeftSideBar currentPage={currentPage} onNavigate={handleNavigate} />
       </div>
       <main className="main-content">
+      <button className="theme-toggle-btn btn-main" onClick={toggleTheme}>
+          {theme === "light" ? "Dark" : "Light"} Mode
+        </button>
         {renderCurrentPage()}
       </main>
 
