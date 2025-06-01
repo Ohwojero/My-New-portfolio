@@ -95,8 +95,9 @@
     color: #ff7f50;
   }
   @media (max-width: 768px){
+    
     .contact-form{
-      margin-bottom: 20px;
+      margin-bottom: 6rem;
     }
   }
   

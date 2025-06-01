@@ -81,6 +81,7 @@
   @media (max-width: 768px){
     .portfolio-container{
       padding: 10px 0;
+      margin-bottom: 5rem;
     }
     .project-card{
       width: 100%;

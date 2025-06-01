@@ -132,6 +132,9 @@
 }
 
 @media (max-width: 768px) {
+  .about-content{
+    margin-bottom: 4rem;
+  }
   .stack-section {
     gap: 2px;
     grid-template-columns: 1fr;
