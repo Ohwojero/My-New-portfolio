@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./resume.css";
 import { FaPhone, FaGithub, FaLocationDot } from "react-icons/fa6";
 import { FiMail, FiDownload } from "react-icons/fi";
 import "./resume.css";
+import EducationAndSkills from "../education/EducationAndSkills";
 const ResumePage = () => {
   const handleDownload = () => {
     window.open("/path-to-your-resume.pdf", "_blank");
@@ -20,7 +20,7 @@ const ResumePage = () => {
 
       <div className="container">
         <section className="personal-info">
-          <div>
+          <div className="personal-details">
             <h2>Ohwojero Godstime</h2>
             <p>Next js & React Native</p>
           </div>
@@ -218,6 +218,7 @@ const ResumePage = () => {
             </section>
           </div>
         </div>
+        <EducationAndSkills />
       </div>
     </div>
   );

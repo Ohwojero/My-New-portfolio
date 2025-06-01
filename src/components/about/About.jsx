@@ -1,6 +1,6 @@
 import React from "react";
+import { stackData } from "./data";
 import { Link } from "react-router-dom";
-import {stackData} from "./data";
 import "./about.css";
 
 const About = () => {
@@ -15,7 +15,14 @@ const About = () => {
           platforms for businesses to thrive on the internet. Explore
         </p>
         <p className="links">
-          My <Link to="/resume" className="link">Resume</Link> and <Link to="/portfolio" className="link">Portfolio</Link>
+          My{" "}
+          <Link to="/resume" className="link">
+            Resume
+          </Link>{" "}
+          and{" "}
+          <Link to="/portfolio" className="link">
+            Portfolio
+          </Link>
         </p>
       </div>
 
@@ -31,10 +38,10 @@ const About = () => {
       </div>
 
       <div className="what-i-do-section">
-      <div className="line-contact">
-        <div className="line"></div>
-        <h2>What I DO</h2>
-      </div>
+        <div className="line-contact">
+          <div className="line"></div>
+          <h2>What I DO</h2>
+        </div>
         <p className="work-details">
           As a web developer, I specialize in building scalable and maintainable
           web applications with modern user interfaces and functionalities. I
@@ -47,7 +54,12 @@ const About = () => {
 
       <div className="stack-section">
         {stackData.map((item, index) => (
-          <div className="stack-wrapper" key={index}>
+          <div
+            data-aos="zoom-in"
+            data-aos-once="true"
+            className="stack-wrapper"
+            key={index}
+          >
             <img src={item.image} alt={item.title} />
             <h4>{item.title}</h4>
             <p className="wrapper-text">{item.text}</p>

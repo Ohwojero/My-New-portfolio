@@ -43,14 +43,14 @@ function App() {
       </div>
       <main className="main-content">
       <button className="theme-toggle-btn btn-main" onClick={toggleTheme}>
-          {theme === "light" ? "Dark" : "Light"} Mode
+          {theme === "Light" ? "Dark" : "Light"} Mode
         </button>
         {renderCurrentPage()}
       </main>
 
       <div className="sidebar right-sidebar">
       <button className="theme-toggle-btn" onClick={toggleTheme}>
-          {theme === "light" ? "Dark" : "Light"} Mode
+          {theme === "Light" ? "Dark" : "Light"} Mode
         </button>
       <Right />
       </div>

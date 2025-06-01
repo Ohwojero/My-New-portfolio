@@ -1,5 +1,4 @@
 .resume-container{
-
   display: flex;
   flex-direction: column;
 }
@@ -68,7 +67,7 @@
 }
 .section-box p{
   font-size: 15px;
-  /* color: rgb(104, 104, 104); */
+
   line-height: 1.5;
 }
 .skills{
@@ -103,6 +102,9 @@
   color: #ff7f50;
 }
 @media (max-width: 768px){
+  .resume-container{
+    margin-bottom: 1rem;
+  }
   .resume-header h1{
     font-size: 40px;
     font-weight: 900;
@@ -132,5 +134,15 @@
   }
   .experience{
     margin-bottom: 1rem;
+  }
+  .icon{
+   display: block;
+   
+  }
+  .personal-details{
+    margin-left: -28px;
+  }
+  .section-box h3{
+    margin-top: -30px;
   }
 }

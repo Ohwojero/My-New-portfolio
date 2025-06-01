@@ -7,13 +7,14 @@ import { FaAddressCard } from "react-icons/fa";
 import { PiExportFill } from "react-icons/pi";
 import { MdContactPhone } from "react-icons/md";
 
+
 import "./left.css";
 
 const LeftSideBar = ({ currentPage, onNavigate }) => {
   const navItems = [
-    { name: "about", label: "About", icon: <IoPerson /> },
+    { name: "about",  label: "About", icon: <IoPerson /> },
     { name: "resume", label: "MyResume", icon: <FaAddressCard /> },
-    { name: "portfolio", label: "Portfolio", icon: <PiExportFill /> },
+    { name: "portfolio",  label: "Portfolio", icon: <PiExportFill /> },
     { name: "contact", label: "Contact", icon: <MdContactPhone /> },
   ];
   return (
@@ -38,25 +39,20 @@ const LeftSideBar = ({ currentPage, onNavigate }) => {
         <nav className="left-sidebar">
           <ul>
             {navItems.map((item) => (
-              <li key={item.name}>
-                <button
-                  onClick={() => onNavigate(item.name)}
+              <li key={item.name}
+                onClick={() => onNavigate(item.name)}
                   className={`navLink ${
-                    currentPage === item.name ? "active" : ""
-                  }`}
-                  aria-current={currentPage === item.name ? "page" : undefined}
-                >
+                    currentPage === item.name ? "active" : ""}`}
+                  aria-current={currentPage === item.name ? "page" : undefined}>
                   {item.icon} {item.label}
-                </button>
               </li>
             ))}
           </ul>
         </nav>
       </div>
-     
-     
     </div>
   );
 };
 
 export default LeftSideBar;
+

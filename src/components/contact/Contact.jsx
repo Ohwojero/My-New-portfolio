@@ -4,7 +4,6 @@ import {
   FaFacebookSquare,
   FaTwitterSquare,
   FaMobileAlt,
-  FaPhone,
 } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { HiLocationMarker } from "react-icons/hi";
@@ -37,21 +36,21 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin size={34} />
+          <FaLinkedin size={34}  className="social-links"/>
         </a>
         <a
           href="https://www.facebook.com/profile.php?id=100087432254461"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebookSquare size={34} />
+          <FaFacebookSquare size={34} className="social-links" />
         </a>
         <a
           href="https://x.com/OhwojeroGT?t=mu3ayD6Jle9cLMj_KlIy-w&s=09"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitterSquare size={34} />
+          <FaTwitterSquare size={34} className="social-links" />
         </a>
       </div>
 
